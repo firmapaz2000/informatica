@@ -1,3 +1,5 @@
+getThermalSensation(15, 5)
+
 function [Tc] = CtoF(t)
     Tc = (t * 9/5) + 32;
 end;
