@@ -1,12 +1,11 @@
 clear all
 clc
+
 a=input('Introduzca el primer numero: ');
 b=input('Introduzca el segundo numero: ');
-if a<b
-  printf('El mayor numero es %i', b);
-elseif(a>b)
-  printf('El mayor numero es %i', a);
-else
+clc
+if(getBigger(a, b) == "undefined")
   printf('Los numeros son iguales');
+else
+  printf('El mayor numero es %i', getBigger(a, b));
 endif
-clear all
